@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos de Interés en Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/Otros aspectos de interés de Boostrap.css">
+
+</head>
+<body>
+    <section class="jumbotron p-3">
+        <div class="container col-10">
+            <div class="p-3 bg-light rounded-3">
+                <div class="container-fluid py-5">
+                    <h1 class="display-6 fw-bold">Esto es un jumbotron</h1>
+                    <p class="col-md-12 fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ipsum adipisci eligendi possimus nam amet aut commodi voluptates. Placeat facilis nulla quod voluptates impedit recusandae accusamus neque quos aliquid eos tenetur ipsam fugit voluptatibus asperiores, velit consectetur ducimus quasi voluptas, cumque id culpa assumenda quo repellat? Ipsa quos placeat ipsum cumque reprehenderit quis.
+                    </p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary btn-lg fw-bold " data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        Haz Clic Aqui
+                    </button>
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Hola!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    Ten un muy buen dia
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <div class="container p-3S m-auto row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-2">
+    <section class="formulario row">
+        <div class="p-4 rounded border border-dark">
+            <form action="" class="row g-3">
+                <div class="col-6">
+                    <label for="nombre" class="form-label"> Introduce aqui tu nombre</label>
+                    <input id="nombre" type="text" class="form-control" placeholder="Tu nombre"/>
+                </div>
+                <div class="col-6">
+                    <label for="Telefono" class="form-label"> Introduce aqui tu numero</label>
+                    <input id="telefono" type="tel" class="form-control" placeholder="Tu numero de telefono"/>
+                </div>
+                <div class="col">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea id="mensaje" type="text" class="form-control" placeholder="Mensaje"></textarea>
+                </div>
+            </form>
+        </div>    
+    </section>
+    <section class="container p-3 tarjeta row">
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title">Jessica Oliveros</h3>
+                <p class="card-text">Diseño Gráfico - UI / UX. Optimizacion SEO, html, Css, Wordpress, Responsive Design | Creo soluciones gráficas y web para tu marca.</p>
+                <a href="#" class="card-link">oliverosjessica289@gmail.com</a>
+            </div>
+          </div>
+    </section>
+</div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</html>
